@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    android:backgroundTint="#DA62DC"
+    android:orientation="vertical"
+    android:paddingStart="20dp"
+    android:paddingTop="60dp"
+    android:paddingEnd="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:text="sameer "
+        android:textColor="#333333"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnAddCaller"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#2196F3"
+        android:elevation="4dp"
+        android:text="+ Add New Caller"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Saved Callers (Tap to Call / Hold to Delete):"
+        android:textColor="#352B2B" />
+
+    <ListView
+        android:id="@+id/listViewCallers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#232020"
+        android:cacheColorHint="#141212"
+        android:divider="@android:drawable/alert_dark_frame"
+        android:dividerHeight="1dp" />
+
+</LinearLayout>
